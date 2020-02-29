@@ -10,13 +10,20 @@ ExampleComponent is an example component. It takes a property, `label`, and disp
 }
 
 \usage{
-rDashVideoComponent(id=NULL, label=NULL, value=NULL)
+rDashVideoComponent(id=NULL, source=NULL, fluid=NULL, width=NULL, height=NULL)
 }
 
 \arguments{
 \item{id}{Character. The ID used to identify this component in Dash callbacks.}
 
-\item{label}{Character. A label that will be printed when this component is rendered.}
+\item{source}{Character. A label that will be printed when this component is rendered.}
 
-\item{value}{Character. The value displayed in the input.}
+\item{fluid}{Logical. In fluid mode, it’s 100\% wide all the time, 
+the height will be calculated by the video's ratio.}
+
+\item{width}{Numeric. The width value of video, could be an number or percent or auto.
+(This attribute is effective only if you set fluid as false)}
+
+\item{height}{Numeric. The height value of video, could be an number or percent or auto.
+(This attribute is effective only if you set fluid as false)}
 }

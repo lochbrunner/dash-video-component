@@ -2,6 +2,7 @@ include dash_video_component/dash_video_component.min.js
 include dash_video_component/dash_video_component.min.js.map
 include dash_video_component/metadata.json
 include dash_video_component/package-info.json
+include dash_video_component/video-react.css
 include README.md
 include LICENSE
 include package.json

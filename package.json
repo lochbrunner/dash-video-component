@@ -24,7 +24,8 @@
   "author": "Matthias Lochbrunner <matthias_lochbrunner@web.de>",
   "license": "MIT",
   "dependencies": {
-    "ramda": "^0.26.1"
+    "ramda": "^0.26.1",
+    "video-react": "^0.14.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",

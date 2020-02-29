@@ -1,5 +1,7 @@
 node_modules
 venv
-dash_video_component
+dash_video_component/*
+!dash_video_component/*.css
+!dash_video_component/__init__.py
 inst
 __pycache__

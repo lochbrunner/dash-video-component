@@ -1,8 +1,8 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-rDashVideoComponent <- function(id=NULL, label=NULL, value=NULL) {
+rDashVideoComponent <- function(id=NULL, source=NULL, fluid=NULL, width=NULL, height=NULL) {
     
-    props <- list(id=id, label=label, value=value)
+    props <- list(id=id, source=source, fluid=fluid, width=width, height=height)
     if (length(props) > 0) {
         props <- props[!vapply(props, is.null, logical(1))]
     }
@@ -10,7 +10,7 @@ rDashVideoComponent <- function(id=NULL, label=NULL, value=NULL) {
         props = props,
         type = 'DashVideoComponent',
         namespace = 'dash_video_component',
-        propNames = c('id', 'label', 'value'),
+        propNames = c('id', 'source', 'fluid', 'width', 'height'),
         package = 'dashVideoComponent'
         )
 
