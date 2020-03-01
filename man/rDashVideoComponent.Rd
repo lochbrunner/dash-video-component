@@ -10,7 +10,8 @@ ExampleComponent is an example component. It takes a property, `label`, and disp
 }
 
 \usage{
-rDashVideoComponent(id=NULL, source=NULL, fluid=NULL, width=NULL, height=NULL)
+rDashVideoComponent(id=NULL, source=NULL, fluid=NULL, width=NULL, height=NULL, autoPlay=NULL,
+state=NULL, time=NULL)
 }
 
 \arguments{
@@ -18,7 +19,7 @@ rDashVideoComponent(id=NULL, source=NULL, fluid=NULL, width=NULL, height=NULL)
 
 \item{source}{Character. A label that will be printed when this component is rendered.}
 
-\item{fluid}{Logical. In fluid mode, it’s 100\% wide all the time, 
+\item{fluid}{Logical. In fluid mode, it’s 100% wide all the time,
 the height will be calculated by the video's ratio.}
 
 \item{width}{Numeric. The width value of video, could be an number or percent or auto.
@@ -26,4 +27,11 @@ the height will be calculated by the video's ratio.}
 
 \item{height}{Numeric. The height value of video, could be an number or percent or auto.
 (This attribute is effective only if you set fluid as false)}
+
+\item{autoPlay}{Logical. if specified, the video automatically begins to play back as soon
+as it can do so without stopping to finish loading the data.}
+
+\item{state}{Logical | numeric | character | named list | unnamed list. Pause or playing}
+
+\item{time}{Numeric. Set this property to seek to the specific time}
 }

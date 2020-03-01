@@ -1,11 +1,13 @@
-# dash_video_component
+[![PyPI](https://img.shields.io/pypi/v/dash_video_component)](https://pypi.org/project/dash_video_component/)
+![PyPI - License](https://img.shields.io/pypi/l/dash_video_component)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/dash_video_component)](https://pypi.org/project/dash_video_component/)
 
-dash_video_component is a Dash component library.
+# Dash Video Component
 
-Get started with:
-1. Install Dash and its dependencies: https://dash.plot.ly/installation
-2. Run `python usage.py`
-3. Visit http://localhost:8050 in your web browser
+This Dash component is a wrapper around [video-react](https://video-react.js.org/).
+
+See [usage.py](./usage.py) example usage.
+
 
 ## Contributing
 
@@ -87,8 +89,3 @@ If you have selected install_dependencies during the prompt, you can skip this p
         $ npm publish
         ```
         _Publishing your component to NPM will make the JavaScript bundles available on the unpkg CDN. By default, Dash serves the component library's CSS and JS locally, but if you choose to publish the package to NPM you can set `serve_locally` to `False` and you may see faster load times._
-
-5. Share your component with the community! https://community.plot.ly/c/dash
-    1. Publish this repository to GitHub
-    2. Tag your GitHub repository with the plotly-dash tag so that it appears here: https://github.com/topics/plotly-dash
-    3. Create a post in the Dash community forum: https://community.plot.ly/c/dash
